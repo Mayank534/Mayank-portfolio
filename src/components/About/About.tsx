@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.webp";
+import MayankAgrawal from "../../assets/mayank_2.png";
 import python from "../../assets/python.svg"
 import java from "../../assets/java.svg"
 import wordpress from "../../assets/wordpress.svg";
@@ -12,111 +12,183 @@ import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
-import ScrollAnimation from "react-animate-on-scroll";
+import { motion } from "framer-motion";
 
 export function About() {
   return (
     <Container id="about">
       <div className="about-text">
-        <ScrollAnimation animateIn="fadeInLeft">
+        <motion.div
+          initial={{ opacity: 0, x: -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+        >
           <h2>About me</h2>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+        >
           <p>
-            Hi there! I'm Vinayak, an enthusiastic Software Engineer skilled in web development, machine learning, and scalable software solutions
+            Hi there! I'm Mayank Agrawal, a 4th year undergrad @ IIT Kanpur, I am interested in anything related to dev, finance, blockchains, robotics, ML, competitive programming.
           </p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          style={{ marginTop: "2rem", marginBottom: "2rem" }}
+        >
           <p>
-            I build responsive web applications, fine-tune ML models, and implement robust backend services.
-          </p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
-          <p>
-            I also work with CMS platforms like WordPress and Shopify to streamline content management.
-          </p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={400}>
+           I am the Team head of <a href="https://era.sntiitk.com/">ERA IITK</a> a team for autonomous robotics, I am also the deputy contingent leader of IIT Kanpur for InterIIT TechMeet 14.0
+           </p>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+        >
           <div className="education">
             <h3>Education:</h3>
-            <h4> Master of Computer Applications (MCA)</h4>
-            <p>Vellore Institute of Technology, Chennai | July 2023 - Present</p>
-            <p>8.09 CGPA</p>
+            <h4> BTech Mechanical Engineering & Computer Science and Engineering</h4>
+            <p>Indian Institute of Technology, Kanpur | Oct 2022 - Present</p>
           </div>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={550}>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, delay: 0.55 }}
+        >
           <div className="experience">
-             <h3>Experience:</h3><h4>Software Developer</h4>
-            <p>KIWIS AND BROWNIES IT SOLUTIONS | October 2024 - Present</p>
-            <p>Bangalore, India</p>
+             <h3>Internships:</h3>
+             <h4>Quantitative Investment Strategies (QIS)</h4>
+            <p>Nomura | May 2025 - July 2025</p>
+            <p>Mumbai, India</p>
+            <br />
+            <h4>SDE-I</h4>
+            <p>Dentira | Dec 2024 - May 2025</p>
+            <p>Remote</p>
           </div>
-        </ScrollAnimation>
+        </motion.div>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
+        <motion.div
+          initial={{ opacity: 0, x: -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+        >
           <h3>Here are my main skills:</h3>
-        </ScrollAnimation>
+        </motion.div>
         <div className="hard-skills">
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.10 }}
+            >
               <img src={python} alt="python" />
-            </ScrollAnimation>
+            </motion.div>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.11 * 1000}>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.11 }}
+            >
               <img src={java} alt="java" />
-            </ScrollAnimation>
+            </motion.div>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.12 }}
+            >
               <img src={jsIcon} alt="JavaScript" />
-            </ScrollAnimation>
+            </motion.div>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.13 }}
+            >
               <img src={reactIcon} alt="React" />
-            </ScrollAnimation>
+            </motion.div>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.14 }}
+            >
               <img src={typescriptIcon} alt="Typescript" />
-            </ScrollAnimation>
+            </motion.div>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.15 }}
+            >
               <img src={vueIcon} alt="Vue" />
-            </ScrollAnimation>
+            </motion.div>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.16 }}
+            >
               <img src={wordpress} alt="Wordpress" />
-            </ScrollAnimation>
+            </motion.div>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.17 }}
+            >
               <img src={shopify} alt="shopify" />
-            </ScrollAnimation>
+            </motion.div>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.18 }}
+            >
               <img src={htmlIcon} alt="Html" />
-            </ScrollAnimation>
+            </motion.div>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.19 }}
+            >
               <img src={cssIcon} alt="Css" />
-            </ScrollAnimation>
+            </motion.div>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.20 }}
+            >
               <img src={boostrapIcon} alt="bootstrap" />
-            </ScrollAnimation>
+            </motion.div>
           </div>
         </div>
       </div>
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
-        </ScrollAnimation>
+        <motion.div
+          initial={{ opacity: 0, x: 40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, delay: 0.21 }}
+        >
+          <img src={MayankAgrawal} alt="Mayank Agrawal" />
+        </motion.div>
       </div>
     </Container>
   )
