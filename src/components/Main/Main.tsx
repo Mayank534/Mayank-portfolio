@@ -17,6 +17,29 @@ import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import adobephotoshop from "../../assets/Adobe Photoshop.svg";
+import arduino from "../../assets/arduino.svg";
+import bash from "../../assets/Bash.svg";
+import blender from "../../assets/Blender.svg";
+import bloomberg from "../../assets/bloomberg.svg";
+import canva from "../../assets/Canva.svg";
+import cpp from "../../assets/c++.svg";
+import docker from "../../assets/Docker.svg";
+import gazebo from "../../assets/Gazebo.svg";
+import git from "../../assets/Git.svg";
+import jupyter from "../../assets/Jupyter.svg";
+import markdown from "../../assets/Markdown.svg";
+import matplotlib from "../../assets/Matplotlib.svg";
+import mysql from "../../assets/MySQL.svg";
+import numpy from "../../assets/NumPy.svg";
+import opencv from "../../assets/OpenCV.svg";
+import pandas from "../../assets/Pandas.svg";
+import pytorch from "../../assets/PyTorch.svg";
+import ros from "../../assets/Robot Operating System (ROS).svg";
+import sckitlearn from "../../assets/scikit-learn.svg";
+import solidity from "../../assets/Solidity.svg";
+import tensorflow from "../../assets/TensorFlow.svg";
+import unity from "../../assets/Unity.svg";
 
 export function Main() {
   return (
@@ -73,10 +96,10 @@ export function Main() {
                 }
               },
               "push": {
-                "quantity": 2
+                "quantity": 5
               },
               "remove": {
-                "quantity": 2
+                "quantity": 5
               },
               "repulse": {
                 "distance": 200,
@@ -118,7 +141,7 @@ export function Main() {
                 "enable": true,
                 "area": 800
               },
-              "limit": 20,
+              "limit": 40,
               "value": 15,
             },
             "opacity": {
@@ -217,6 +240,121 @@ export function Main() {
                 // },
                 {
                   "src": vueIcon,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": adobephotoshop,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": arduino,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": bash,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": blender,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": bloomberg,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": canva,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": cpp,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": docker,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": gazebo,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": git,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": jupyter,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": markdown,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": matplotlib,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": mysql,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": numpy,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": opencv,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": pandas,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": pytorch,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": ros,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": sckitlearn,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": solidity,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": tensorflow,
+                  "width": 20,
+                  "height": 20
+                },
+                {
+                  "src": unity,
                   "width": 20,
                   "height": 20
                 },

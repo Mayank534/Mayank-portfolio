@@ -10,17 +10,16 @@ export function Contact(){
     <Container id="contact">
       <header>
         <h2>Contact</h2>
-        <p>Ready to get started on your project? </p>
-        <p>Contact me now for a Free consultation.</p>
+        <p>Contact me now for some gyaan.</p>
       </header>
       <div className="contacts">
         <div>
-        <a href="mailto:vinayak@vinayaksingh.com"><img src={emailIcon} alt="Email" /></a> 
-          <a href="mailto:vinayak@vinayaksingh.com">vinayak@vinayaksingh.com</a>
+        <a href="mailto:mayank.agrawal.050304@gmail.com"><img src={emailIcon} alt="Email" /></a> 
+          <a href="mailto:mayank.agrawal.050304@gmail.com">mayank.agrawal.050304@gmail.com</a>
         </div>
         <div>
-        <a href="tel:+919630576848"><img src={phoneIcon} alt="Phone No" /></a>
-          <a href="tel:+919630576848">(+91) 9630576848</a>
+        <a href="tel:9289077004"><img src={phoneIcon} alt="Phone No" /></a>
+          <a href="tel:+919289077004">(+91) 9289077004</a>
         </div>  
       </div>
       <Form></Form>
