@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mayank-portfolio/static/css/main.039bf95e.css",
-    "main.js": "/Mayank-portfolio/static/js/main.20692ea5.js",
+    "main.js": "/Mayank-portfolio/static/js/main.b06f187b.js",
     "static/media/mayank.png": "/Mayank-portfolio/static/media/mayank.767a2438ab38002da0e4.png",
     "static/media/mayank_2.png": "/Mayank-portfolio/static/media/mayank_2.05d75f74f0f5d7c0e34e.png",
     "static/media/Mayank_Agrawal_CV_updated.pdf": "/Mayank-portfolio/static/media/Mayank_Agrawal_CV_updated.b7ba53bcbcaefc3f0200.pdf",
@@ -52,10 +52,10 @@
     "static/media/PyTorch.svg": "/Mayank-portfolio/static/media/PyTorch.091d29874e55ca1389ecf4a0eb434553.svg",
     "static/media/TensorFlow.svg": "/Mayank-portfolio/static/media/TensorFlow.d134800405cb87bd8c207af58dff37cd.svg",
     "main.039bf95e.css.map": "/Mayank-portfolio/static/css/main.039bf95e.css.map",
-    "main.20692ea5.js.map": "/Mayank-portfolio/static/js/main.20692ea5.js.map"
+    "main.b06f187b.js.map": "/Mayank-portfolio/static/js/main.b06f187b.js.map"
   },
   "entrypoints": [
     "static/css/main.039bf95e.css",
-    "static/js/main.20692ea5.js"
+    "static/js/main.b06f187b.js"
   ]
 }
