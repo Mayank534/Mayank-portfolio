@@ -63,9 +63,9 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>APTURES 2.0</h3>
+              <h3>APTURES</h3>
               <p>
-                 Solved the Aptos Blockchain Challenge InterIIT problem statement using Move language. Designed and implemented secure smart contracts on the Aptos blockchain network.
+                 Solved the Aptos Blockchain Challenge InterIIT problem statement using Move language. Designed a non-custodial Zero and N-day futures trading platform on-chain
               </p>
             </div>
             <footer>
